@@ -50,3 +50,6 @@ only helps to share your screen. Nothing else (:.
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the
 [tags on this repository](https://github.com/screego/server/tags).
+
+## Login ui setting
+- server/ui/src/RoomManage.tsx 
