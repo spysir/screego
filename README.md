@@ -52,4 +52,4 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 [tags on this repository](https://github.com/screego/server/tags).
 
 ## Login ui setting
-- server/ui/src/RoomManage.tsx 
+- ui/src/RoomManage.tsx 
