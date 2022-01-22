@@ -49,7 +49,7 @@ dockers:
     goarch: amd64
     goarm: ''
     image_templates:
-      - "spysir/screego:amd64-unstable"
+      - "screego/server:amd64-unstable"
       - "screego/server:amd64-{{ .RawVersion }}"
       - "screego/server:amd64-{{ .Major }}"
     dockerfile: Dockerfile
