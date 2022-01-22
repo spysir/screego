@@ -5,9 +5,9 @@ on:
   workflow_dispatch:
     inputs:
       ssh:
-        description: 'run'
+        description: 'build'
         required: false
-        default: 'run-off'
+        default: 'start build'
 
 jobs:
   screego:
