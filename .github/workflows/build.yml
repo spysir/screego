@@ -1,5 +1,13 @@
 name: build
-on: [push, pull_request]
+#on: [push, pull_request]
+
+on:
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH连接'
+        required: false
+        default: 'ssh-off'
 
 jobs:
   screego:
