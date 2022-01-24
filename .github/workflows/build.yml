@@ -3,11 +3,7 @@ name: build
 
 on:
   workflow_dispatch:
-    inputs:
-      ssh:
-        description: 'build'
-        required: false
-        default: 'start build'
+    
 
 jobs:
   screego:
